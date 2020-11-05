@@ -1,10 +1,10 @@
 import { expect } from "https://cdn.jsdelivr.net/gh/Soontao/expect@0.3.1/mod.ts";
-import { blue, gray } from "https://deno.land/std@0.76.0/fmt/colors.ts";
+import { blue, cyan, gray } from "https://deno.land/std@0.76.0/fmt/colors.ts";
 
 (window as any).expect = expect;
 
 const colorName = (color: (value: string) => string, ...parts: string[]) => {
-  return parts.map(color).join("\t> ");
+  return color(parts.join(" > "));
 };
 
 const describe = (
@@ -20,7 +20,7 @@ const describe = (
     Deno.test({
       name: ignore
         ? colorName(gray, suite, name)
-        : colorName(blue, suite, name),
+        : colorName(cyan, suite, name),
       fn,
       ignore,
       sanitizeResources: false,
