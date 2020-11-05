@@ -1,0 +1,7 @@
+{
+  "python.dataScience.enableScrollingForCellOutputs": false,
+  "deno.enable": true,
+  "cSpell.words": [
+    "Deno"
+  ]
+}
