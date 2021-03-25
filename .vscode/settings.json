@@ -1,5 +1,6 @@
 {
   "deno.enable": true,
+  "deno.import_intellisense_autodiscovery": true,
   "cSpell.words": [
     "Deno"
   ],
