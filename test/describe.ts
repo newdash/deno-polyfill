@@ -1,5 +1,5 @@
 import { expect } from "https://cdn.jsdelivr.net/gh/Soontao/expect@0.3.1/mod.ts";
-import { cyan, gray } from "https://deno.land/std@0.76.0/fmt/colors.ts";
+import { cyan, gray } from "https://deno.land/std@0.91.0/fmt/colors.ts";
 
 (window as any).expect = expect;
 

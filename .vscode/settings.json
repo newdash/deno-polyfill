@@ -1,12 +1,7 @@
 {
-  "python.dataScience.enableScrollingForCellOutputs": false,
   "deno.enable": true,
   "cSpell.words": [
     "Deno"
   ],
-  "deno.import_intellisense_origins": {
-    "https://deno.land": true
-  },
-  "editor.formatOnSave": true,
-  "editor.defaultFormatter": "denoland.vscode-deno"
+  "editor.formatOnSave": true
 }
