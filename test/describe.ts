@@ -1,3 +1,4 @@
+// deno-lint-ignore-file no-explicit-any
 import { expect } from "https://cdn.jsdelivr.net/gh/Soontao/expect@0.4.4/mod.ts";
 import { cyan, gray } from "https://deno.land/std@0.116.0/fmt/colors.ts";
 
