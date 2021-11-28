@@ -1,6 +1,7 @@
 # Deno polyfill
 
 [![Deno](https://github.com/newdash/deno-polyfill/actions/workflows/deno.yml/badge.svg)](https://github.com/newdash/deno-polyfill/actions/workflows/deno.yml)
+![GitHub tag (latest by date)](https://img.shields.io/github/v/tag/newdash/deno-polyfill)
 
 Deno polyfill for nodejs
 
