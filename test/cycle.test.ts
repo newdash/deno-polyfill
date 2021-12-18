@@ -1,6 +1,6 @@
 // deno-lint-ignore-file no-explicit-any
 
-import { assertEquals } from "https://deno.land/std@0.116.0/testing/asserts.ts";
+import { assertEquals } from "https://deno.land/std@0.118.0/testing/asserts.ts";
 import { isCyclic } from "./cycle.ts";
 
 Deno.test("test isCycle", () => {
