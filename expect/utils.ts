@@ -1,8 +1,9 @@
+// deno-lint-ignore-file no-explicit-any
 /**
  * check function is promise instance
- * 
- * @param v 
- * @returns 
+ *
+ * @param v
+ * @returns
  */
 export function isPromise(v: any): v is Promise<any> {
   if (

@@ -1,3 +1,4 @@
+// deno-lint-ignore-file
 import * as builtInMatchers from "./matchers.ts";
 import type { Matcher, Matchers } from "./matchers.ts";
 import { isPromise } from "./utils.ts";
